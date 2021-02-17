@@ -1,0 +1,354 @@
+body { 
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto !important;
+}
+
+label{
+	font-size: 90px;
+}
+
+.input1{
+	height: 45px;
+	width: 580px;	
+ 	border-radius: 50px 50px 50px 50px; 
+}
+
+footer{
+	background-color: #dcdcdc;
+}
+
+a{
+	font-size: 14px;
+}
+
+@media (max-width: 576px){	
+	
+
+	div{
+		display: flex;
+		justify-content: center;
+		
+	}	
+
+	.br{
+		margin-left: -320px;		
+	}
+
+
+	.botao{
+		display: none;
+	}
+
+}
+
+@media (max-width: 406px){	
+
+	.botao{
+		display: none;
+	}
+
+	.letra{
+		font-size: 75px;
+	}
+
+}
+
+
+@media (max-width: 800px){	
+
+	.botao{
+		display: none;
+	}
+
+	.letra{
+
+		font-size: 70px;
+	}
+
+
+}
+
+@media (min-width: 1892px){	
+	
+	.centro{
+		display: flex;
+		flex-direction: column;
+	} 
+
+	.input1{
+		width: 800px;
+		height: 65px;
+	}
+
+	.botao{
+		height: 30px;
+		padding-bottom: 50px;
+		font-size: 23px;
+		
+	}
+
+	.letra{
+		font-size: 150px;
+	}
+
+
+}
+
+
+@media (width: 812px) and (height: 375px){	
+
+	
+	.letra{
+		font-size: 70px;
+	}
+
+	.botao{
+		display: none;
+	}	
+
+}
+
+@media (width: 653px) and (height: 280px){	
+
+	
+	.letra{
+		font-size: 30px;
+	}
+
+	.botao{
+		display: none;
+	}
+
+	.input1{
+		width: 100px;
+
+	}
+
+	
+	.pesquisa{
+		display: none;
+	}
+
+
+	.lista{
+		display: flex;		
+		align-items: center;
+	}
+
+	.cfg{
+		display: none;
+	}
+
+
+}
+
+
+@media (width: 280px) and (height: 653px){	
+
+		
+	.botao{
+		display: none;
+	}	
+
+	
+	.pesquisa{
+		display: none;
+	}
+
+
+	.br{
+		display: none;
+	}
+
+
+	.aba1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.ng{
+		display: none;
+	}
+
+	.cfg{
+		display: none;
+	}	
+
+	.letra{
+		font-size: 50px;
+	}
+
+	
+}	
+
+	@media (width: 720px) and (height: 540px){	
+		
+	.letra{
+		font-size: 70px;
+	}
+
+	.input1{
+		width: 900px;
+		height: 50px;
+	}
+
+	.botao{
+		font-size: 25px;
+		margin-top: 20px;
+	}
+	
+
+	}
+
+@media (width: 768px) and (height: 1024px){	
+
+	form{
+		display: flex;
+		justify-content: center;		
+	}
+
+	.letra{
+		font-size: 100px;
+	}
+
+	.input1{
+		width: 1000px;
+		height: 50px;
+	}
+
+}
+
+
+@media (width: 1024px) and (min-height: 720px){	
+	
+	.letra{
+		font-size: 150px;
+	}
+
+	.input1{
+		width: 800px;
+		height: 70px;
+	}
+
+	.botao{
+		font-size: 25px;
+		margin-top: 20px;
+	}	
+
+
+}
+
+
+@media (width: 1366px) and (min-height: 1024px){	
+
+	form{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin-left: 42px;
+
+	}
+
+	.botao{
+		display: none;
+	}
+
+}
+
+
+@media (width: 1920px) and (height: 1080px){		
+
+
+	.letra{
+		font-size: 180px;
+	}
+
+	.input1{
+		width: 1100px;
+		height: 80px;
+	}
+
+	.botao{
+		font-size: 30px;
+		margin-top: 25px;		
+		margin-right: -220px;
+		height: 50px;
+		
+	}	
+
+	form{
+		margin-right: 200px;
+
+	}	
+	
+}
+
+@media (width: 1920px) and (height: 1200px){		
+
+
+	.letra{
+		font-size: 200px;
+	}
+
+	.input1{
+		width: 1100px;
+		height: 80px;
+	}
+
+	.botao{
+		
+		font-size: 30px;
+		margin-top: 25px;
+		display: flex;	
+		justify-content: center;	
+		flex-direction: row;
+	}
+
+	.bt2{
+		margin-left: 530px;
+		margin-top: -58px;
+	}
+
+	form{
+	 margin-right: 200px;
+	}	
+
+}
+
+@media (width: 3840px) and (height: 2160px){	
+
+	.letra{
+		font-size: 300px;
+	}
+
+	.input1{
+		width: 1500px;
+		height: 150px;
+	}
+
+	.botao{
+		font-size: 50px;		
+		height: 100px;
+	}
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
